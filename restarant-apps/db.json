@@ -1,0 +1,68 @@
+{
+  "posts": [
+    {
+      "id": 5,
+      "name": "shivaji hotel",
+      "email": "shivaji@gmail.com",
+      "mobile": 9012346589,
+      "address": "saoner raod pipla",
+      "services": "lunch , dinner , breakfast"
+    },
+    {
+      "id": 6,
+      "name": "muskan restourant",
+      "email": "muskan@gmail.com",
+      "mobile": 9988778899,
+      "address": "banegao nagpur",
+      "services": "tea"
+    }
+  ],
+  "signup": [
+    {
+      "name": "muskan sharma",
+      "email": "muskan@gmail.com",
+      "mobile": 9812903478,
+      "password": "4512",
+      "id": 1
+    },
+    {
+      "name": "motu",
+      "email": "motu@gmail.com",
+      "mobile": 949034044,
+      "password": "123456",
+      "id": 2
+    },
+    {
+      "name": "raju sharma",
+      "email": "raju@gmail.com",
+      "mobile": 7218236346,
+      "password": "703030",
+      "id": 3
+    },
+    {
+      "name": "ammy",
+      "email": "ammy@gmail.com",
+      "mobile": 7218236346,
+      "password": "7080",
+      "id": 4
+    },
+    {
+      "name": "susi",
+      "email": "susi@gmail.com",
+      "mobile": 7016302012,
+      "password": "435",
+      "id": 5
+    },
+    {
+      "name": "manoj",
+      "email": "manoj@gmail.com",
+      "mobile": 7218236346,
+      "password": "9867",
+      "id": 6
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}

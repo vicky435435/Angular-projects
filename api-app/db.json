@@ -1,0 +1,75 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "name": "ramkrushna maneshwar",
+      "id": 2
+    },
+    {
+      "name": null,
+      "id": 3
+    },
+    {
+      "name": null,
+      "id": 4
+    },
+    {
+      "name": "ramkrushna maneshwar",
+      "id": 5
+    },
+    {
+      "name": "vicky",
+      "id": 6
+    },
+    {
+      "name": "vicky maneshawar",
+      "id": 7
+    },
+    {
+      "name": null,
+      "id": 8
+    },
+    {
+      "name": "vicky maneshawar",
+      "id": 9
+    },
+    {
+      "name": "",
+      "id": 10
+    },
+    {
+      "name": "khusbhu",
+      "id": 11
+    },
+    {
+      "name": "",
+      "id": 12
+    },
+    {
+      "name": "",
+      "id": 13
+    },
+    {
+      "name": "ankush maneshwar",
+      "id": 14
+    },
+    {
+      "name": "sahil",
+      "id": 15
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

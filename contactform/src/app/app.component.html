@@ -1,0 +1,32 @@
+<router-outlet></router-outlet>
+<div class="container">
+<form [formGroup]="contactForms" action="" class="form-group">
+  <mat-form-field appearance="fill">
+    <mat-label>Name</mat-label>
+    <input matInput formControlName="name">
+  </mat-form-field>
+  
+  <!-- <small *ngIf="contactForms.get('name').invalid && contactForms.get('name').touched">Name is Required</small> -->
+
+  <mat-form-field appearance="fill">
+    <mat-label>Email</mat-label>
+    <input matInput formControlName="email">
+  </mat-form-field>
+
+  <mat-form-field appearance="fill">
+    <mat-label>Select</mat-label>
+    <mat-select formControlName="subject">
+      <mat-option value="Bussines">Bussines</mat-option>
+      <mat-option value="Sales">Sales</mat-option>
+      <mat-option value="Carrer">Carrer</mat-option>
+    </mat-select>
+  </mat-form-field>
+  <mat-form-field appearance="fill">
+    <mat-label>Message</mat-label>
+    <textarea matInput formControlName="message"></textarea>
+  </mat-form-field>
+  <button type="reset" mat-raised-button color="primary" [disabled]="contactForms.invalid" (click)="submitData(contactForms.value)">Submit</button>
+<p *ngIf="inSubmit" class="smg">{{submitMessage}}</p>
+</form>
+</div>
+  
