@@ -1,0 +1,20 @@
+
+  <mat-toolbar color="primary">
+    <button mat-icon-button class="example-icon">
+      <mat-icon (click)="this.sideNav.open()" *ngIf="!sideNav.opened" class="mat-18">menu</mat-icon>
+      <mat-icon (click)="this.sideNav.close()"  *ngIf="sideNav.opened" class="mat-18">close</mat-icon>
+    </button>
+    <span>BCC News</span>
+  </mat-toolbar>
+
+<mat-sidenav-container>
+  <mat-sidenav #sideNav = "matSidenav">
+    <img src="" alt="" class="avatar mat-elavation-z8">
+    <h4>Lets Program</h4>
+    <mat-divider></mat-divider>
+    <button mat-button class="menu-button">
+      <mat-icon>event_note</mat-icon>
+      <span> ABC news </span>
+    </button>
+  </mat-sidenav>
+</mat-sidenav-container>

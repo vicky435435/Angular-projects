@@ -1,0 +1,23 @@
+
+
+1. What is the spread operator in ES6?
+Spread operator is used to obtain the list of parameters. It is represented by three dots (…).
+Basically spread operator takes an iterable (such as array or string) and expands it into individual elements. 
+In JavaScript, it is mainly used to make shallow copies of JS. It makes your code concise and increases the readability of your code.
+
+2. Explain Promises in ES6.
+
+In JavaScript, there is a concept of asynchronous programming. In asynchronous programming,
+you run the processes individually from the main thread. In ES6 promises are the easiest way to deal with asynchronous programming.
+A promise can either be rejected or resolved depending on the operation outcome. 
+Before promises were introduced in ES6, callbacks were used to deal with asynchronous programming.
+
+
+3. What is the purpose of template literals in ES6?
+Template literals are the strings with code embedded and having variables inside.
+ We can interpolate and concatenate using template literals more comprehensively than the previous versions of ES.
+
+
+ 4 . What is meant by the Arrow function?
+ES6 arrow function is used for defining and using a function. It is Arrow functions’ shorthand notation. The parameter list (….) can be passed to the arrow function.
+ And a => marker, as well as function body, follows it. Parentheses are not needed when the arrow function is declared with a single argument

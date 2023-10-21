@@ -1,0 +1,57 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "employees": [
+    {
+      "firstname": "Aysn",
+      "lastname": "bahu",
+      "email": "ayasn@gmail.com",
+      "dob": "2021-07-06T18:30:00.000Z",
+      "gender": "male",
+      "education": "Matric",
+      "company": "zoo",
+      "exp": 5,
+      "package": 8.5,
+      "id": 1
+    },
+    {
+      "firstname": "vasi",
+      "lastname": "manu",
+      "email": "vasi@gmail..com",
+      "dob": "2016-10-10T18:30:00.000Z",
+      "gender": "female",
+      "education": "Intermediate",
+      "company": "zesz",
+      "exp": 5,
+      "package": 4,
+      "id": 2
+    },
+    {
+      "firstname": "Alister",
+      "lastname": "cock",
+      "email": "alister2@gmail.com",
+      "dob": "2014-07-02T18:30:00.000Z",
+      "gender": "male",
+      "education": "Post Graduate",
+      "company": "uushl",
+      "exp": 4,
+      "package": 8,
+      "id": 3
+    }
+  ]
+}

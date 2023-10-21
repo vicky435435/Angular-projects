@@ -22,6 +22,7 @@ export class RestaurentDashComponent implements OnInit{
     this.formValue = this.formBuilder.group({
       name:[''],
       email:[''],
+      gender: [''],
       mobile:[''],
       address:[''],
       services:['']
@@ -42,6 +43,7 @@ export class RestaurentDashComponent implements OnInit{
   addResto(){
    this.restaurentModelObj.name = this.formValue.value.name;
    this.restaurentModelObj.email = this.formValue.value.email;
+   this.restaurentModelObj.gender = this.formValue.value.gender;
    this.restaurentModelObj.mobile = this.formValue.value.mobile;
    this.restaurentModelObj.address = this.formValue.value.address;
    this.restaurentModelObj.services = this.formValue.value.services;
@@ -83,6 +85,7 @@ onEditResto(data:any){
   this.restaurentModelObj.id = data.id
   this.formValue.controls['name'].setValue(data.name);
   this.formValue.controls['email'].setValue(data.email);
+  this.formValue.controls['gender'].setValue(data.gender);
   this.formValue.controls['mobile'].setValue(data.mobile);
   this.formValue.controls['address'].setValue(data.address);
   this.formValue.controls['services'].setValue(data.services);
@@ -91,6 +94,7 @@ onEditResto(data:any){
 upDateResto(){
   this.restaurentModelObj.name = this.formValue.value.name;
    this.restaurentModelObj.email = this.formValue.value.email;
+   this.restaurentModelObj.gender= this.formValue.value.gender;
    this.restaurentModelObj.mobile = this.formValue.value.mobile;
    this.restaurentModelObj.address = this.formValue.value.address;
    this.restaurentModelObj.services = this.formValue.value.services;

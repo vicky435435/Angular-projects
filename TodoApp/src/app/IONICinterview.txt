@@ -1,0 +1,7 @@
+
+
+What is Ionic ? What are the prerequisites for installing Ionic framework ?
+Ionic is a mobile app development framework used to build hybrid apps.
+Hybrid apps are basically web apps running in a browser within a wrapper that  has access to the native platform layer. Ionic framework is an HTML5 framework. It needs a native wrapper like Cordova or PhoneGap in order to run as a native app. Ionic framework lets you maintain one codebase and create builds for both Android and iOS platforms.
+
+NodeJS , npm are required in order to install Ionic. You need NodeJS 6.0.0+ or a higher version in order to install ionic. 

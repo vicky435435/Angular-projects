@@ -1,0 +1,165 @@
+                                          Angular  
+
+1.What is Data Binding in Angular?
+There are four types of data binding in Angular:
+
+Interpolation: Binding expressions are evaluated and displayed in the HTML template.
+Property Binding: Binds a property of an HTML element to a value in the component.
+Event Binding: Binds an event from an HTML element to a method in the component.
+Two-Way Binding: Combines property binding and event binding to enable updates in both directions.
+
+Interpolation: Binding values directly into the HTML using double curly braces {{ value }}.
+Property Binding: Binding a component property to an HTML element property using square brackets [property]="value".
+Event Binding: Binding an event from the HTML element to a component's method using parentheses (event)="method()".
+Two-way Binding: A combination of property and event binding, allowing the automatic synchronization of data between the component and the input element using [(ngModel)].
+
+
+2. Explain the lifecycle hooks in Angular.
+
+In Angular, every component has a lifecycle. Angular creates and renders these components and also destroys them before removing them from the DOM. This is achieved with the help of lifecycle hooks. Here is the list of them -  
+
+ngOnChanges() - Responds when Angular sets/resets data-bound input properties. 
+ngOnInit() - Initialize the directive/component after Angular first displays the data-bound properties and sets the directive/component's input properties 
+ngDoCheck() - Detect and act upon changes that Angular cannot or will not detect on its own. 
+ngAfterContentInit() - Responds after Angular projects external content into the component's view. 
+ngAfterContentChecked() - Respond after Angular checks the content projected into the component. 
+ngAfterViewInit() - Respond after Angular initializes the component's views and child views. 
+ngAfterViewChecked() - This hook responds after Angular checks the component's views and child views. 
+ngOnDestroy() - This hook helps clean up just before Angular destroys the directive/component.
+
+3. What is Dependency Injection in Angular?
+
+Dependency Injection (DI) is a design pattern used in Angular to provide components with the services or dependencies they need. 
+Instead of creating instances of dependencies within components,
+Angular's DI mechanism automatically injects instances of required services into components' constructors.
+
+
+4. How does Routing work in Angular?
+
+Angular's built-in router enables navigation between different views and components in a single-page application. 
+It allows you to define routes, associate components with routes, and handle navigation through URLs.
+
+5. What is Angular Interceptor and how is it used?
+
+Angular Interceptors are classes that can intercept HTTP requests and responses. 
+They are used to perform tasks such as adding headers, logging, error handling, 
+and modifying requests or responses before they reach the application. 
+Interceptors are configured in the HttpClientModule.
+
+6. What are Angular Guards?
+
+Angular Guards are used to control navigation and access to routes in an Angular application. 
+They can be used to prevent unauthorized access to certain routes 
+(Route Guards) or to perform checks before navigating to a route 
+(CanActivate, CanDeactivate, CanLoad, CanActivateChild)
+
+7. What is a pipe in Angular?
+
+Pipes are simple functions to use in template expressions to accept an input value and return a transformed value. 
+Pipes are useful because you can use them throughout your application, while only declaring each pipe once.
+Use pipes to transform strings, currency amounts, dates, and other data for display. 
+
+
+8. Decorators are design patterns or functions that define how Angular features work. They make prior modifications to a class, service, or filter.
+
+Angular supports four types of decorators:- 
+
+Class decorators
+Property decorators
+Method decorators
+Parameter decorators
+
+9. What are template in Angular ?
+
+There are two ways to create a template in an Angular component:
+
+inline template , Linked template
+
+inline template :-
+The component decorator's template config is used to specify an inline HTML template for a component. 
+The Template will be wrapped inside the single or double quotes
+
+        <h1> Hello {{name}} how are you ? </h1>
+        <h2> Welcome to interviewbit ! </h2>
+
+Linked template :-
+component may include an HTML template in a separate HTML file.
+As illustrated below, the templateUrl option is used to indicate the path of the HTML template file.
+
+10 What is Eager and Lazy loading?
+
+Loading:   The eager loading technique is the default module-loading strategy.
+Eager loading feature modules are loaded before the program begins.
+This is primarily utilized for small-scale applications.
+
+Lazy Loading:   Lazy loading loads the feature modules dynamically as needed. 
+This speeds up the application. It is utilized for larger projects where all of the modules are not required at the start
+
+11 . What is ngOnInit ?
+
+ngOnInit is a lifecycle hook and callback function used by Angular to mark the creation of a component. 
+It accepts no arguments and returns a void type.
+
+
+12 . What are Annotations in Angular?
+Annotations in Angular are used for creating an annotation array. 
+They are the metadata set on the class that is used to reflect the Metadata library.
+
+
+13. What is AOT in Angular?
+JIT (just in time) compilation
+AOT(Ahead-of-Time) compilation
+
+In Angular, AOT stands for Ahead-Of-Time compiler. It is used to convert your Angular HTML and TypeScript code into efficient JavaScript code during the build phase before the browser downloads and runs that code. 
+By compiling the application during the build process provides a faster rendering in the browser.
+
+14. What is Angular Router?
+Angular Router is a mechanism that facilitates users to navigate from one view to the next as users perform application tasks. 
+It follows the concept model of browser's application navigation.
+
+15 .  Ways to load feature module ?
+ 1. Eager Loading (default mechanism) : All the modules loaded first then 
+ application get started .
+
+ 2. Lazy Loading : First Application get started then modules will be loaded
+ whenever they are needed.
+
+ 3. Pre Loading : First Application get started then modules will be loaded a 
+ automatically
+
+ 16. What are Services in Angular? 
+Angular Services perform tasks that are used by multiple components. These tasks could be data and image fetching, network connections, and database management among others. 
+They perform all the operational tasks for the components and avoid rewriting of code. A service can be written once and injected into all the components that use that service.
+
+17 . 11. What are directives in Angular?
+A core feature of Angular, directives are attributes that allow you to write new HTML syntax, specific to your application.
+They are essentially functions that execute when the Angular compiler finds them in the DOM. 
+The Angular directives are segregated into 3 parts:
+
+Component Directives
+Structural Directives
+Attribute Directives
+
+18 . 14. How does one share data between components in Angular?
+
+Data Sharing Between Angular Components
+Parent to Child: via Input
+Child to Parent: via Output() and EventEmitter
+Child to Parent: via ViewChild
+Unrelated Components: via a Service
+
+19 . What is bootstrapping in Angular?
+
+Automatic Bootstrapping: this is done by adding the ng-app directive to the root of the application, 
+typically on the tag or tag if you want angular to bootstrap your application automatically
+
+Manual Bootstrapping: Manual bootstrapping provides
+you more control on how and when to initialize your Angular application
+
+20 . how to angular space.ts file skip command 
+  = --skip-tests ,
+  ng g s Hotel --skip-tests
+
+  
+21 .  What is the interceptor concept in Angular?
+Interceptor is a special Angular Service that can be used to intercept all the request and response calls and modify them to our requirement

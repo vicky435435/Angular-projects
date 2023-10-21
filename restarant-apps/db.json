@@ -1,20 +1,36 @@
 {
   "posts": [
     {
-      "id": 5,
-      "name": "shivaji hotel",
-      "email": "shivaji@gmail.com",
-      "mobile": 9012346589,
-      "address": "saoner raod pipla",
-      "services": "lunch , dinner , breakfast"
+      "id": 1,
+      "name": "Vikas",
+      "mobile": 7050305686,
+      "address": "nagpur",
+      "services": "muder"
     },
     {
-      "id": 6,
-      "name": "muskan restourant",
-      "email": "muskan@gmail.com",
-      "mobile": 9988778899,
-      "address": "banegao nagpur",
-      "services": "tea"
+      "id": 2,
+      "name": "sudes",
+      "email": null,
+      "mobile": 45126874112,
+      "address": "k",
+      "services": "case"
+    },
+    {
+      "id": 3,
+      "name": "surendra",
+      "email": null,
+      "mobile": 87989565565,
+      "address": null,
+      "services": null
+    },
+    {
+      "id": 4,
+      "name": "dfd",
+      "email": null,
+      "mobile": null,
+      "address": null,
+      "services": null,
+      "gender": null
     }
   ],
   "signup": [
@@ -59,6 +75,48 @@
       "mobile": 7218236346,
       "password": "9867",
       "id": 6
+    },
+    {
+      "name": "amm",
+      "email": "amm@gmail.com",
+      "mobile": 98084594305,
+      "password": "123456",
+      "id": 7
+    },
+    {
+      "name": "ankit verma",
+      "email": "ankit@gmail.com",
+      "mobile": 2423423049,
+      "password": "981234",
+      "id": 8
+    },
+    {
+      "name": "sahil",
+      "email": "sahil@gmail.com",
+      "mobile": 950384080,
+      "password": "12345",
+      "id": 9
+    },
+    {
+      "name": "rajesh sharma",
+      "email": "rajesh@gmail.com",
+      "mobile": 7875169070,
+      "password": "7030",
+      "id": 10
+    },
+    {
+      "name": "virat",
+      "email": "virat@gmail.com",
+      "mobile": 9843085048,
+      "password": "4545",
+      "id": 11
+    },
+    {
+      "name": "ayesh",
+      "email": "ayesh@gmail.com",
+      "mobile": "7215846354",
+      "password": "8528",
+      "id": 12
     }
   ],
   "comments": [],

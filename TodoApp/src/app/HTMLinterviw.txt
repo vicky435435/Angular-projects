@@ -1,0 +1,33 @@
+
+
+1. What is semantic HTML?
+Semantic HTML is a coding style. It is the use of HTML markup to reinforce the semantics or meaning of the content. 
+
+For example: In semantic HTML <b> </b> tag is not used for bold statement as well as <i> </i> tag is not used for italic.
+Instead of these we use <strong></strong> and <em></em> tags.
+
+2.  What is iframe HTML?
+
+An inline frame (iframe) is a HTML element that loads another HTML page within the document.
+It essentially puts another webpage within the parent page.
+    AUR =>
+An iframe is an HTML document embedded inside another HTML document on a website.
+Think of it as a "webpage within a web page.
+
+
+3. List out the page structure elements of HTML5.
+
+Answer: Page structure elements of HTML5 are given below:
+
+<header>: Represents the header section and stores the starting information about the web page.
+<footer>: Represents the footer section (last portion) of the page.
+<nav>: Represents the navigation elements of the HTML page.
+<article>: It is a set of information.
+<section>: It is a set of instructions that is used inside the article block to define the basic structure of a page.
+<aside>: Sidebar content of the page.
+
+
+4. What is the difference between HTML elements and tags?
+HTML elements communicate to the browser to render text. When the elements are enclosed by brackets <>, they form HTML tags. 
+Most of the time, tags come in a pair and surround content.
+

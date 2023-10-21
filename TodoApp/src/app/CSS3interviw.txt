@@ -1,0 +1,37 @@
+
+
+1 What is a Z index in CSS?
+
+Z Index ( z-index ) is a CSS property that defines the order of overlapping HTML elements. 
+Elements with a higher index will be placed on top of elements with a lower index. 
+
+aur 
+
+The z-index property determines the stacking order of positioned elements.
+Elements with a higher z-index value are displayed in front of elements with lower values.
+
+
+2. Differentiate padding from margin:
+
+Margin: It is the space outside the border of an element. It contributes to the total space occupied by an element.
+Padding: It is the space between the content of an element and its border. It contributes to the total size of the element.
+
+3.What is CSS flexbox?
+
+Flexbox is a layout model in CSS that allows design of complex layouts and alignment of items within a container.
+It provides an efficient way to distribute space and align items.
+
+
+4. What is a ‘Box Model’ in CSS?
+
+The CSS Box Model consists of content, padding, border, and margin.
+It defines the space around and between elements.
+
+
+5.  What are the different types of selectors in CSS?
+
+Type Selector: Selects elements of a specific type (e.g., p).
+Class Selector: Selects elements with a specific class (e.g., .example).
+ID Selector: Selects a single element with a specific ID (e.g., #uniqueID).
+Attribute Selector: Selects elements based on their attribute values (e.g., [type='text'])
+

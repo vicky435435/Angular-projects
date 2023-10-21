@@ -1,0 +1,63 @@
+
+1 Difference between let and var ?
+
+The difference between let and var is in the scope of the variables they create: 
+Variables declared by let are only available inside the block where they're defined. 
+Variables declared by var are available throughout the function in which they're declared
+
+2 What is promise in javascript 
+
+A Promise can be in one of three states:
+
+Pending: The initial state; the promise is neither fulfilled nor rejected.
+
+Fulfilled: The operation completed successfully, and the promise has a resulting value.
+
+Rejected: The operation failed, and the promise has a reason for the failure.
+
+3. what is hosting in javascript ?
+
+Variable Hoisting:
+In JavaScript, variable declarations are hoisted to the top of their containing scope during the compilation phase. 
+However, only the declarations are hoisted, not the initializations
+
+4 What is callback function ?
+
+In JavaScript, you can also pass a function as an argument to a function. 
+This function that is passed as an argument inside of another function is called a callback function.
+          aur -->
+In JavaScript, a callback function is a function that is passed as an argument to another 
+function and is executed after the completion of a specific task.
+
+What is callback function and normal function in JavaScript?
+What is a Callback Function in JavaScript? | 
+    => 
+A JavaScript callback is a function which is to be executed after another function has finished execution.
+A more formal definition would be - Any function that is passed as an argument to another function
+so that it can be executed in that other function is called as a callback function.
+
+
+5. What is MAP () in JavaScript?
+Description. map() creates a new array from calling a function for every array element. 
+map() does not execute the function for empty elements. map() does not change the original array.
+
+6. closure.
+In JavaScript, we need closures when a variable which is defined outside the scope in reference is accessed from some inner scope.
+
+AUR ==>
+
+The closure is a primary mechanism to private the data items. Closures give access to the outer function’s scope from the inner function's scope. Closures are created for every function in JavaScript. To define a closure,
+ create a function inside another function to expose it.
+
+7.What is meant by NULL in JavaScript?
+If no value has been given to the variable then, it is called a null object (or) null value.
+
+8. What is undefined and null in JavaScript?
+Undefined means a variable has been declared but has yet not been assigned a value. Null is an assignment value.
+It can be assigned to a variable as a representation of no value
+
+
+9 . What is filter () in JavaScript?
+Description. The filter() method creates a new array filled with elements that pass a test provided by a function. The filter() method does not execute the function for empty elements.
+The filter() method does not change the original array.
+

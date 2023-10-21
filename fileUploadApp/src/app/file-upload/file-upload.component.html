@@ -1,0 +1,17 @@
+<div class="jumbotron text-center bg-primary" style="color: white;"> file upload</div>
+<div class="container">
+    <div class="text-center mt-5">
+        <input type="file" (change)="onChange($event)" class="form-group">
+
+        <button class="btn btn-success" (click)="onUpload()">Upload file</button>
+    </div>
+
+    <div class="conatiner text-center" *ngIf="shortLink">
+        <h2>visit here</h2>
+        <a href="{{shortLink}}">{{shortLink}}</a>
+    </div>
+
+    <div class="container" *ngIf="loading">
+           <h3>looding ...</h3>
+    </div>
+</div>

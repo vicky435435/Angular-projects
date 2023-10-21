@@ -1,0 +1,15 @@
+<div class="container mt-5">
+    <h1 class="text-center mb-4">Zomato Item list</h1>
+    <div class="row row-cols-1 row-cols-md-5 g-4">
+      <div class="col-3" *ngFor="let item of items">
+        <a href=""></a>
+        <div class="card">
+          <img [src]="item.photoUrl" alt="" />
+          <div class="card-body">
+            <h5 class="card-title">{{item.menuItemName}}</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
